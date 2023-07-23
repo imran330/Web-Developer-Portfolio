@@ -31,7 +31,7 @@ nav {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px ;
+    padding: 15px 35px;
 }
 
 nav>ul {
@@ -50,42 +50,93 @@ nav a {
     color: #474747;
 }
 
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
-    max-width:500px;
+.banner-content {
+    max-width: 500px;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 40 50;
 }
 
-.banner-gretting{
+.banner-gretting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
-    
+
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     margin-bottom: 20px;
 }
 
-/* main section style */
+/* main section style start */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section style start */
+
+.About-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.About-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.About {
+    margin: 130px 0;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    align-items: center;
+    text-align: center;
+    padding: 130px;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
